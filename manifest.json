@@ -16,7 +16,8 @@
   },
 
   "background": {
-    "scripts": ["background/bg.js"]
+    "scripts": ["background/bg.js"],
+    "persistent": true
   },
 
   "content_scripts": [
@@ -26,5 +27,11 @@
     }
   ],
 
-  "permissions": ["webRequest", "scripting", "storage"]
+  "permissions": [
+    "webRequest",
+    "scripting",
+    "storage",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
 }
