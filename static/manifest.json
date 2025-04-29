@@ -6,24 +6,24 @@
   "description": "An Extension for blocking malicious sites and nsfw content",
 
   "icons": {
-    "48": "icons/icon-48.svg"
+    "48": "./assets/icon-48.svg"
   },
 
   "browser_action": {
-    "default_popup": "popup/popup.html",
+    "default_popup": "./popup/popup.html",
     "default_title": "Kavach",
-    "default_icon": "icons/icon-48.svg"
+    "default_icon": "./assets/icon-48.svg"
   },
 
   "background": {
-    "scripts": ["background/bg.js"],
+    "scripts": ["background.bundle.js"],
     "persistent": true
   },
 
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content_script/script.js"]
+      "js": ["content_script.bundle.js"]
     }
   ],
 

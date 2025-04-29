@@ -6,6 +6,8 @@
 
 pt.2
 
-- [ ] figure out difference in indexedDb and webpack bundling
-- [ ] content-script with nsfw-js
+- [x] figure out difference in indexedDb and webpack bundling
+- [x] pack nodemodules in bundle using webpack
+- [ ] run a bg script to download model in indexedDb.
+- [ ] content-script for making images blur (upto 10-20 images).
 - [ ] figure out optimizations.

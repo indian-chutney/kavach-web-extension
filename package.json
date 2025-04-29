@@ -1,0 +1,27 @@
+{
+  "name": "kavach-ext",
+  "version": "1.0.0",
+  "description": "- [x] set-up basic manifest.json with permissions and project structure. - [x] pop-up, display number of harmful urls blocked - [x] writing bg scripts for getting url requests. - [x] api key - [x] pause request and send error html, and ask if want to continue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indian-chutney/kavach-web-extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/indian-chutney/kavach-web-extension/issues"
+  },
+  "homepage": "https://github.com/indian-chutney/kavach-web-extension#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.0",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1"
+  }
+}
