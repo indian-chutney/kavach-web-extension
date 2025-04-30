@@ -1,7 +1,7 @@
 console.log("BACKGROUND SCRIPT LOADED - " + new Date().toISOString());
 
 async function isMalicious(input_url) {
-  const API_KEY = "AIzaSyB4CQsI30LM3PRn4wMzYaPX6xnEdrQHJog";
+  const API_KEY = "secret_key";
   const url = `https://safebrowsing.googleapis.com/v4/threatMatches:find?key=${API_KEY}`;
   try {
     const res = await fetch(url, {
